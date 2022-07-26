@@ -1,6 +1,6 @@
 # This is useful for n number of keys inside the object
 import unittest
-from keyObject import *
+from keyObj_challenge_3 import *
 
 obj = {"p": {"q": {"r": {"s": "k"}}}}
 key = "p/q/r/s"
