@@ -1,0 +1,71 @@
+
+
+
+CASE 1
+
+     1. GKE/AKS/EKS
+	 2. Terraform
+
+		API Gateway -----> NGINX/HTTPD/TOMCAT based microservice
+										|
+										|
+ 								Backend Services
+										|
+										|
+								    Database (container based)
+
+
+CASE II
+	1. GKE/AKS/EKS
+    2. Terraform
+	3. Cloud Spanner / Aurora / Posgresql / Mysql
+
+			API Gateway -----> NGINX/HTTPD/TOMCAT based microservice
+										|
+										|
+ 								Backend Services
+										|
+										|
+								    Database (cloud Service)
+
+
+CASE III
+	1. ECS/App Engine
+	2. Terraform
+	3. Cloud Spanner / Aurora / Posgresql / Mysql
+	
+		API Gateway -----> NGINX/HTTPD/TOMCAT on ECS/APP engine
+										|
+										|
+ 								Backend Services
+										|
+										|
+								    Database (cloud Service)
+									
+
+CASE IV
+	1. EC2/Compute Engine
+	2. Terraform
+	3. Cloud Spanner / Aurora / Posgresql / Mysql
+	
+		API Gateway -----> NGINX/HTTPD/TOMCAT on EC2/Compute Engine
+										|
+										|
+ 								Backend Services
+										|
+										|
+								    Database (cloud Service)
+									
+									
+CASE V
+	1. EC2/Compute Engine
+	2. Terraform
+	3. Cloud Spanner / Aurora / Posgresql / Mysql
+	
+		API Gateway -----> NGINX/HTTPD/TOMCAT on EC2/Compute Engine
+										|
+										|
+ 								Backend Services
+										|
+										|
+								    Database (container based)
